@@ -1,0 +1,10 @@
+>git init
+>git add .
+>git commit -am <Add your message>
+>git remote add origin <add your path>
+>git push origin <branch name>
+>git push origin <branch name> --force
+>git status
+>git checkout -b <branch name>
+>git commit
+>git push origin <branch name>
