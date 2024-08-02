@@ -57,3 +57,5 @@ Using Babel tool:
 2. We need to use text/babel for in <script> tag, by using this babel it will convert the dynamic text or code into a readable format for the browser.
 3. We can also use JSX instead of Babel, a powerful feature in React.
 4. To use JSX we need to mention "{}" in code. You can store the dynamic content in variables and use them in curly braces.
+   ![image](https://github.com/user-attachments/assets/e1a94ea9-b788-4f08-9b50-554464d06aeb)
+
