@@ -11,18 +11,30 @@
         <div id="root"></div>
         <h1>Getting Started with React</h1>
         <script type="text/babel">
-            let simle="😊";
-            let I="ℹ️";
-            let love="❤️";
-            let human="🫅";
+            function Header(){
+                return (
+                    <header>
+                        <h1>MHWC Company</h1>
+                    </header>
+                )
+            }
+            function Main(){
+                return (
+                    <section>
+                        <p>Welcome to our service, we are most popular in small scale sector</p>
+                    </section>                
+                        )
+            }
+            function App(){
+                return (
+                    <div>
+                        <Header />
+                        <Main />
+                    </div>
+                )
+            }
             ReactDOM.render(
-                <ul>
-                    <li>{simle}</li>
-                    <li>{I}</li>
-                    <li>{love}</li>
-                    <li>🫰</li>
-                    <li>{human}</li>
-                </ul>
+                <App />
                 ,
                 document.getElementById("root")
             );
