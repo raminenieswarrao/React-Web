@@ -59,3 +59,7 @@ Using Babel tool:
 4. To use JSX we need to mention "{}" in code. You can store the dynamic content in variables and use them in curly braces.
    ![image](https://github.com/user-attachments/assets/e1a94ea9-b788-4f08-9b50-554464d06aeb)
 
+Create a react component through Functions:
+![image](https://github.com/user-attachments/assets/3e671bd0-20ea-4acf-8e39-f41a31457342)
+
+
