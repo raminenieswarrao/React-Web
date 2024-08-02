@@ -35,7 +35,7 @@ ReactDOM.render(
 Explanation
 ReactDOM.render:
 
-This method is used to render React elements into the DOM. It takes two arguments: the React element to render and the DOM element to render it into.
+This method is used to render React elements into the DOM. It takes two arguments: the React element to render and the DOM element to render it.
 React.createElement("h1", null, "Getting Started with React. Used the Javascript"):
 
 React.createElement is a method used to create a React element. In this case, it creates an h1 element with no props (null) and the text content "Getting Started with React. Used the Javascript".
@@ -48,3 +48,12 @@ document.getElementById("root"):
 
 
 This method returns the DOM element with the id root. It is used as the container for rendering the React element created above.
+
+
+**Date: 08/01/2024**
+
+Using Babel tool:
+1. We can use the cnd link for babel in code.
+2. We need to use text/babel for in <script> tag, by using this babel it will convert the dynamic text or code into a readable format for the browser.
+3. We can also use JSX instead of Babel, a powerful feature in React.
+4. To use JSX we need to mention "{}" in code. You can store the dynamic content in variables and use them in curly braces.
